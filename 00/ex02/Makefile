@@ -10,4 +10,4 @@ main.o : main.c $(ft_print_reverse_alphabet).h
 	cc -c main.c
 
 clean:
-	rm *.o
+	rm *.o; $(name)

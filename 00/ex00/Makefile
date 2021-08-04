@@ -9,4 +9,4 @@ main.o : main.c $(ft_putchar).h
 	cc -c main.c
 
 clean:
-	rm *.o
+	rm *.o; rm $(name)
