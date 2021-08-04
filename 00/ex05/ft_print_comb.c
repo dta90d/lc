@@ -5,7 +5,7 @@ char digit_to_char( int i )
     return i + 48;
 }
 
-int is_unique( char a, char b, char c )
+static int is_unique( char a, char b, char c )
 {
     int is_unique = 1;
     
@@ -17,12 +17,12 @@ int is_unique( char a, char b, char c )
     return is_unique;
 }
 
-int calc( char a, char b, char c )
+static int calc( char a, char b, char c )
 {
     return ( a + b + c ) * ( a + b ) * ( a + c ) * ( b + c );
 }
 
-int is_new_comb( char a, char b, char c, int* buff )
+static int is_new_comb( char a, char b, char c, int* buff )
 {
     int status = 0;
 
