@@ -5,7 +5,7 @@ void ft_putchar( char c )
     write( 1, &c, 1 );
 }
 
-int main( int argv[] )
+int main()
 {
     ft_putchar( 'a' );
     ft_putchar( 'b' );
