@@ -1,7 +1,7 @@
 #include "ex00/ft_putchar.h"
 #include "ex05/digit_to_char.h"
 
-int _number_of_digits( int n ) // NOTE: Only works with positive numbers.
+static int _number_of_digits( int n ) // NOTE: Only works with positive numbers.
 {
     if ( n < 10 )
     {
@@ -13,7 +13,7 @@ int _number_of_digits( int n ) // NOTE: Only works with positive numbers.
     }
 }
 
-int _pow( int n, int exp ) // NOTE: Only works with positive exponent.
+static int _pow( int n, int exp ) // NOTE: Only works with positive exponent.
 {
     if ( exp == 0 )
     {
