@@ -1,9 +1,5 @@
 #include "ex00/ft_putchar.h"
-
-char digit_to_char( int i )
-{
-    return i + 48;
-}
+#include "digit_to_char.h"
 
 static int is_unique( char a, char b, char c )
 {
