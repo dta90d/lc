@@ -19,10 +19,6 @@ int _pow( int n, int exp ) // NOTE: Only works with positive exponent.
     {
         return 1;
     }
-    else if ( exp == 1 )
-    {
-        return n;
-    }
     else
     {
         return n * _pow( n, exp - 1 );
